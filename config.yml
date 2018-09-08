@@ -1,0 +1,10 @@
+application:
+  db:
+    url: "../mydb.db"
+#    url: "postgres://MYDB:pass123@localhost/MYDB?sslmode=disable"
+
+  ldapinfo:
+    host: localhost
+    port: 389
+    dn:   dc=Manager,dc=sample,dc=com
+    password: pass123
